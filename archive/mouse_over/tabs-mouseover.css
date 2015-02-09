@@ -1,0 +1,38 @@
+#products img {
+    margin:20px 20px 10px 0;
+    cursor:pointer;
+}
+
+.description {
+    background-color:#edecbc;
+    border:1px solid #999;
+    width:605px;
+    min-height:140px;
+    display:none;
+    margin-top:17px;
+    -moz-border-radius:4px;
+    padding:0 20px;
+	margin-left: 85px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:12px;
+	line-height: 18px;
+	color: #333;
+}
+
+.description .arrow {
+    width:34px;
+    height:34px;
+    background:transparent url(images/yellow.png) repeat scroll 0 -68px;
+    margin-top:-28px;
+    margin-left:85px;
+    font-size:1px;
+    position:relative;
+}
+
+#commercial .arrow {
+    margin-left:450px;
+}
+
+#multidomain .arrow {
+    margin-left:385px;
+}

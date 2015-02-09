@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="mouse_over/tabs-mouseover.css" />
+ <title>Proctor</title>
+<script src="http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"></script>
+</head>
+
+<body><div id="products" align="center"> 
+	<a href="javascript:;" onclick="window.open('offcampus.php');"><img name="proctor_request_button" src="images/proctor_request_button.jpg" width="332" height="202" border="0" id="proctor_request_button" alt="Proctor Request Form for Online Students" /></a>
+  	<a href="javascript:;" onclick="window.open('testcentre.php');"><img name="test_centre_button" src="images/test_centre_button.jpg" width="332" height="202" border="0" id="test_centre_button" alt="Test Centre Form for Online Students" /></a>
+</div>
+
+<div class="description" id="free">
+  <div class="arrow">&nbsp;</div>
+
+  <p>
+- Please ensure that you have secured a proctor and have collected all of the necessary proctor contact information.
+		<br /><br />
+- Submit this form if you live more than 100 km from Humber College's North campus.
+		<br /><br />
+- Late proctor requests will be accepted but time and date options will be potentially severely restricted.
+
+ </p>
+
+</div>
+
+<div class="description" id="commercial">
+  <div class="arrow">&nbsp;</div>
+  
+    <p>
+   	- Submit this form if you want to write the exam at a <b>Humber Test Centre</b> due to a conflict with your exam schedule.
+		<br /><br />
+	- Late proctor requests will be accepted but time and date options will be potentially severely restricted.
+  </p>
+
+</div>
+
+
+<!-- activate tabs with JavaScript -->
+<script>
+  $(function() {
+      $("#products").tabs("div.description", {event:'mouseover'});
+    });
+</script>
+
+
+</body>
+</html>

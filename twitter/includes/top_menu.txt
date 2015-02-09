@@ -1,0 +1,12 @@
+<div id="menu">
+  <ul>
+    <li><a href="http://www.onlinelearning.humber.ca/index.html">HOME</a></li>
+    <li><a href="http://www.onlinelearning.humber.ca/courses.html">COURSES</a></li>
+    <li><a href="http://www.onlinelearning.humber.ca/faq.html">FAQ</a></li>
+    <li><a href="http://www.onlinelearning.humber.ca/tutorials.html">TUTORIALS</a></li>
+	<li><a href="http://www.onlinelearning.humber.ca/login.html">LOGIN</a></li>
+	<li><a href="http://www.onlinelearning.humber.ca/contact.html">CONTACT US</a></li>
+	<li><a href="http://www.onlinelearning.humber.ca/student_services.html">STUDENT SERVICES</a></li>
+    <li><a href="http://www.onlinelearning.humber.ca/library.html" class="enditem">LIBRARY</a></li>
+  </ul>
+</div>

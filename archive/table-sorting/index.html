@@ -1,0 +1,392 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>TinyTable</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<div id="tablewrapper">
+	  <div id="tableheader">
+        	<div class="search">
+                <select id="columns" onchange="sorter.search('query')"></select>
+                <input type="text" id="query" onkeyup="sorter.search('query')" />
+            </div>
+            <span class="details">
+				<div>Records <span id="startrecord"></span>-<span id="endrecord"></span> of <span id="totalrecords"></span></div>
+        		<div><a href="javascript:sorter.reset()">reset</a></div>
+        	</span>
+        </div>
+        <table cellpadding="0" cellspacing="0" border="0" id="table" class="tinytable">
+            <thead>
+                <tr>
+                    <th><h3>Course Number</h3></th>
+                    <th><h3>Course Name</h3></th>
+                    <th><h3>Department</h3></th>
+                    <th><h3>Learning Management System</h3></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ezekiel Hart</td>
+                    <td>(627) 536-4760</td>
+                    <td><a href="mailto:#">tortor@est.ca</a></td>
+                    <td>-7</td>
+                </tr>
+                <tr>
+                    <td>Jaquelyn Pace</td>
+                    <td>(921) 943-5780</td>
+                    <td><a href="mailto:#">in@elementum.org</a></td>
+                    <td>-7</td>
+                </tr>
+                <tr>
+                    <td>Lois Pickett</td>
+                    <td>(835) 361-5993</td>
+                    <td><a href="mailto:#">arcu.ac@disse.ca</a></td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Keane Raymond</td>
+                    <td>(605) 803-1561</td>
+                    <td><a href="mailto:#">at.risus.Nunc@ipsum.com</a></td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Porter Thomas</td>
+                    <td>(666) 569-9894</td>
+                    <td><a href="mailto:#">non@Proin.ca</a></td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Imani Murphy</td>
+                    <td>(771) 294-6690</td>
+                    <td><a href="mailto:#">Aenean.sed@elit.ca</a></td>
+                    <td>-1</td>
+                </tr>
+                <tr>
+                    <td>Zachery Guthrie</td>
+                    <td>(851) 784-4129</td>
+                    <td><a href="mailto:#">nunc.nulla@vel.com</a></td>
+                    <td>-5</td>
+                </tr>
+                <tr>
+                    <td>Harper Bowen</td>
+                    <td>(810) 652-6704</td>
+                    <td><a href="mailto:#">dis@duinec.ca</a></td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Caldwell Larson</td>
+                    <td>(850) 562-3177</td>
+                    <td><a href="mailto:#">elit@dolor.com</a></td>
+                    <td>-3</td>
+                </tr>
+                <tr>
+                    <td>Baker Osborn</td>
+                    <td>(378) 371-0559</td>
+                    <td><a href="mailto:#">turpis.Nulla@ac.edu</a></td>
+                    <td>-7</td>
+                </tr>
+                <tr>
+                    <td>Yael Owens</td>
+                    <td>(465) 520-1801</td>
+                    <td><a href="mailto:#">nunc.ac.mattis@enim.com</a></td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Fletcher Briggs</td>
+                    <td>(992) 962-9419</td>
+                    <td><a href="mailto:#">amet.ante@lentesque.edu</a></td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>Maggy Murphy</td>
+                    <td>(585) 210-0390</td>
+                    <td><a href="mailto:#">eu@Integer.com</a></td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Maggie Blake</td>
+                    <td>(489) 101-5447</td>
+                    <td><a href="mailto:#">rutrum.non.hendrerit@iaculis.org</a></td>
+                    <td>-2</td>
+                </tr>
+                <tr>
+                    <td>Ginger Bell</td>
+                    <td>(934) 692-7294</td>
+                    <td><a href="mailto:#">erat.in.conetuer@pedenout.org</a></td>
+                    <td>-10</td>
+                </tr>
+                <tr>
+                    <td>Iliana Ballard</td>
+                    <td>(806) 835-7035</td>
+                    <td><a href="mailto:#">vel.sapien@mi.ca</a></td>
+                    <td>-6</td>
+                </tr>
+                <tr>
+                    <td>Alisa Monroe</td>
+                    <td>(859) 974-4442</td>
+                    <td><a href="mailto:#">adipiscing.ligula@aretraNam.edu</a></td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>Kenyon Luna</td>
+                    <td>(673) 147-0443</td>
+                    <td><a href="mailto:#">Cras@Vestibulumant.edu</a></td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Nola Kerr</td>
+                    <td>(340) 430-0424</td>
+                    <td><a href="mailto:#">tincidunt@vurmagna.com</a></td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Gail Cash</td>
+                    <td>(291) 455-8520</td>
+                    <td><a href="mailto:#">massa.rutrum@Nullamlob.ca</a></td>
+                    <td>-1</td>
+                </tr>
+                <tr>
+                    <td>Kalia Ayala</td>
+                    <td>(142) 520-1128</td>
+                    <td><a href="mailto:#">Etiam.laoreet@velit.org</a></td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Violet Ballard</td>
+                    <td>(126) 374-6078</td>
+                    <td><a href="mailto:#">Integer.in.magna@ntumcollis.edu</a></td>
+                    <td>-10</td>
+                </tr>
+                <tr>
+                    <td>Kevin Carrillo</td>
+                    <td>(687) 483-9669</td>
+                    <td><a href="mailto:#">in@adipiscing.edu</a></td>
+                    <td>-3</td>
+                </tr>
+                <tr>
+                    <td>Alexandra Nixon</td>
+                    <td>(422) 644-3488</td>
+                    <td><a href="mailto:#">nec.luctus@ornarefacilisis.com</a></td>
+                    <td>-1</td>
+                </tr>
+                <tr>
+                    <td>Charissa Manning</td>
+                    <td>(438) 395-9392</td>
+                    <td><a href="mailto:#">nibh.vulputate@necelendnon.org</a></td>
+                    <td>-8</td>
+                </tr>
+                <tr>
+                    <td>Noah Smith</td>
+                    <td>(963) 652-2643</td>
+                    <td><a href="mailto:#">Sed.neque@Duis.org</a></td>
+                    <td>-5</td>
+                </tr>
+                <tr>
+                    <td>Patience Battle</td>
+                    <td>(294) 644-5306</td>
+                    <td><a href="mailto:#">tempus.mauris@elempurus.com</a></td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>Kathleen Hudson</td>
+                    <td>(190) 189-1420</td>
+                    <td><a href="mailto:#">orci.quis@auctor.com</a></td> 
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Marsden Bowman</td>
+                    <td>(163) 780-6121</td>
+                    <td><a href="mailto:#">mauris.a@Sedcongueelit.edu</a></td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Dorian Hodge</td>
+                    <td>(304) 536-8850</td>
+                    <td><a href="mailto:#">pellentesque@laoreet.org</a></td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>Levi Britt</td>
+                    <td>(272) 171-5731</td>
+                    <td><a href="mailto:#">felis@Donecfeugiat.ca</a></td> 
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>Rana Blake</td>
+                    <td>(608) 893-4909</td>
+                    <td><a href="mailto:#">malesuada.fames@dui.edu</a></td>
+                    <td>-4</td>
+                </tr>
+                <tr>
+                    <td>Helen Mccullough</td>
+                    <td>(937) 368-5946</td>
+                    <td><a href="mailto:#">sociis.natoque@myipsum.org</a></td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Gil Ferguson</td>
+                    <td>(832) 581-6953</td>
+                    <td><a href="mailto:#">libero@Infaucibus.com</a></td> 
+                    <td>-6</td>
+                </tr>
+                <tr>
+                    <td>Judah Manning</td>
+                    <td>(332) 888-8768</td>
+                    <td><a href="mailto:#">congue@Nuncut.com</a></td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Yoshi Humphrey</td>
+                    <td>(961) 215-0426</td>
+                    <td><a href="mailto:#">pharetra@rutrumFusce.edu</a></td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Idona Williams</td>
+                    <td>(163) 580-2609</td>
+                    <td><a href="mailto:#">Integer.aliquam@Sedetlibero.org</a></td>
+                    <td>-3</td>
+                </tr>
+                <tr>
+                    <td>Petra Bennett</td>
+                    <td>(976) 799-4111</td>
+                    <td><a href="mailto:#">Proin@Donecelementum.org</a></td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Phyllis Rogers</td>
+                    <td>(798) 959-3321</td>
+                    <td><a href="mailto:#">eget.dictum.placerat@idlibero.ca</a></td>
+                    <td>-10</td>
+                </tr>
+                <tr>
+                    <td>Fritz Benton</td>
+                    <td>(525) 353-2984</td>
+                    <td><a href="mailto:#">a@diamnunc.com</a></td>
+                    <td>-5</td>
+                </tr>
+                <tr>
+                    <td>Mannix Davidson</td>
+                    <td>(106) 260-1651</td>
+                    <td><a href="mailto:#">pulvinar@Duisvolutpat.org</a></td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Grant Lawrence</td>
+                    <td>(807) 487-5786</td>
+                    <td><a href="mailto:#">a@interdumlibero.ca</a></td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Laurel Ortiz</td>
+                    <td>(945) 481-7808</td>
+                    <td><a href="mailto:#">laoreet.posuere@vallis.com</a></td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Lewis Frank</td>
+                    <td>(844) 314-8683</td>
+                    <td><a href="mailto:#">fames@gravida.edu</a></td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Yasir Knox</td>
+                    <td>(814) 509-0367</td>
+                    <td><a href="mailto:#">Cras.vulputate.velit@acusUt.com</a></td>
+                    <td>-2</td>
+                </tr>
+                <tr>
+                    <td>Palmer Newman</td>
+                    <td>(955) 748-1014</td>
+                    <td><a href="mailto:#">fringilla@id.edu</a></td>
+                    <td>-9</td>
+                </tr>
+                <tr>
+                    <td>Tate Webster</td>
+                    <td>(107) 247-3380</td>
+                    <td><a href="mailto:#">pellentesque@pedeultri.com</a></td>
+                    <td>-4</td>
+                </tr>
+                <tr>
+                    <td>Charity Hahn</td>
+                    <td>(395) 200-9188</td>
+                    <td><a href="mailto:#">ac@Quisque.edu</a></td>
+                    <td>-2</td>
+                </tr>
+                <tr>
+                    <td>Katell Crosby</td>
+                    <td>(259) 659-7498</td>
+                    <td><a href="mailto:#">tincidunt.vehicula@ura.com</a></td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="tablefooter">
+          <div id="tablenav">
+            	<div>
+                    <img src="images/first.gif" width="16" height="16" alt="First Page" onclick="sorter.move(-1,true)" />
+                    <img src="images/previous.gif" width="16" height="16" alt="First Page" onclick="sorter.move(-1)" />
+                    <img src="images/next.gif" width="16" height="16" alt="First Page" onclick="sorter.move(1)" />
+                    <img src="images/last.gif" width="16" height="16" alt="Last Page" onclick="sorter.move(1,true)" />
+                </div>
+                <div>
+                	<select id="pagedropdown"></select>
+				</div>
+                <div>
+                	<a href="javascript:sorter.showall()">view all</a>
+                </div>
+          </div>
+			<div id="tablelocation">
+            	<div>
+                    <select onchange="sorter.size(this.value)">
+                    <option value="5">5</option>
+                        <option value="10" selected="selected">10</option>
+                        <option value="20">20</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+                    </select>
+                    <span>Entries Per Page</span>
+                </div>
+                <div class="page">Page <span id="currentpage"></span> of <span id="totalpages"></span></div>
+            </div>
+      </div>
+    </div>
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript">
+	var sorter = new TINY.table.sorter('sorter','table',{
+		headclass:'head',
+		ascclass:'asc',
+		descclass:'desc',
+		evenclass:'evenrow',
+		oddclass:'oddrow',
+		evenselclass:'evenselected',
+		oddselclass:'oddselected',
+		paginate:true,
+		size:20,
+		colddid:'columns',
+		currentid:'currentpage',
+		totalid:'totalpages',
+		startingrecid:'startrecord',
+		endingrecid:'endrecord',
+		totalrecid:'totalrecords',
+		hoverid:'selectedrow',
+		pageddid:'pagedropdown',
+		navid:'tablenav',
+		sortcolumn:0,
+		sortdir:1,
+		sum:[8],
+		avg:[6,7,8,9],
+		columns:[{index:7, format:'%', decimals:1},{index:8, format:'$', decimals:0}],
+		init:true
+	});
+  </script>
+</body>
+</html>

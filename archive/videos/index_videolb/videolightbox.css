@@ -1,0 +1,30 @@
+.videogallery {
+	width:840px;
+	zoom:1;
+}
+.videogallery span{ display:block; }
+.videogallery a{
+	display:-moz-inline-stack;
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+	position:relative;
+	vertical-align:top;
+	margin:3px;
+	width:160px;
+	font:12px/18px "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-weight:normal;
+	color:#333333;
+	text-decoration:none;
+	text-align:center;
+	opacity:0.87;
+}
+.videogallery a.videolb{display:none}
+.videogallery a img{
+	display:block;
+	border:none;
+	margin:0;
+}
+.videogallery a:hover{
+	opacity:1;
+}

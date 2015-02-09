@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Self Evaluation</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="/navbar/navbar.css" type="text/css" rel="stylesheet" />
+		<script src="/navbar/navbar.js" type="text/javascript"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+        <script type="text/javascript" src="api/main_actions.js"></script>
+		<script type="text/javascript" src="api/scrollbar/jquery.scroll.js"></script>
+        <link rel="stylesheet" type="text/css" href="api/css/main.css" />
+        
+        <script language="javascript" type="text/javascript" src="assessment.js"></script>
+
+
+<style type="text/css">
+        
+#demo
+{
+	font-family: "Arial", "Lucida Grande", Sans-Serif;
+	font-size: 18px;
+	margin-top: 50px;
+	margin: 25px;
+	width: 855px;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+#demo a
+{
+	color: #FFF;
+	text-decoration: underline;
+}
+
+#demo a:hover
+{
+	color: #C00;
+	text-decoration: none;
+}
+
+
+#demo td
+{
+	padding: 8px;
+	padding-left: 340px;
+	border-bottom: 1px solid #666;
+	color: #FFF;
+	border-top: 1px solid #666;
+/*	background: #e8edff url('images/gradback.png') repeat-x;
+*/	height: 230px;
+}
+
+.text
+{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #333;
+	line-height: 16px;
+	font-weight: normal;
+}  
+
+.question {
+     height: 100px;
+	 margin: 10px 25px 0px 25px;
+     padding:10px;
+     color:#000;
+     /*background-color:#eef;*/
+     /*border:1px solid #000;*/
+	 font-family: Verdana, Arial, Helvetica, sans-serif;
+	 font-size: 11px;
+	 text-align: left;
+ }
+.assess {
+     height: auto;
+     margin: 10px 25px 0px 25px;
+     padding:10px;
+     color:#000000;
+     background-color: inherit;
+     border:1px solid #fff;
+	 font-family: Verdana, Arial, Helvetica, sans-serif;
+	 font-size: 11px;
+
+ }
+h1 {
+     font-family: Century Gothic, Verdana;
+	 margin: 0px 0px 0px 10px;
+	 font-size:120%;
+ }
+
+        </style>
+
+
+   </head>
+    <body class="main" onload="set_P7_autoHide()">
+    
+    <!--#include virtual="/navbar/goldnavbarxhtml.txt"-->
+<!--#include virtual="/navbar/banners/humber-xhtml.txt"-->
+
+    <div align="center">
+    
+    
+      
+     <div class="top-nav">
+         <!--#include virtual="includes/menus.txt"-->
+     </div> <!-- navigation bar -->
+           <div style="min-height: 620px; max-height: float;" class="stage" id="exception">  <!-- Stage {start} -->
+          <!-- Page Content STARTS here -->
+
+<br />
+
+<table width="900">
+
+<tr>
+
+<td rowspan="3" align="center" valign="top"><img src="images/statement.jpg" width="505" height="31">
+      <p style="margin-left: 10px; margin-right: 10px" align="left"><table width="100%" border="0" cellspacing="0" cellpadding="5">
+              <!--DWLayoutTable-->
+              <tr>
+                <td width="604" height="169" valign="top">
+                  <div class="question"> I have regular access to the Internet. <br />
+                      <br />
+                      <input type="radio" name="q1" onClick="selfAss(1,0)"/>
+                      <label> True </label>
+                      <input type="radio" name="q1" onClick="selfAss(1,1)"/>
+                      <label> False </label>
+                      <div id="assess1" class="assess"></div>
+                </div></td>
+              </tr>
+                                        </table><table width="100%" border="0" cellspacing="0" cellpadding="5">
+              <!--DWLayoutTable-->
+              <tr>
+                <td width="604" height="169" valign="top">
+                  <div class="question"> I am familiar with using email. <br />
+                      <br />
+                      <input type="radio" name="q2" onClick="selfAss(2,0)"/>
+                      <label> True </label>
+                      <input type="radio" name="q2" onClick="selfAss(2,1)"/>
+                      <label> False </label>
+                      <div id="assess2" class="assess"></div>
+                      <!-- testing this div -->
+                </div></td>
+              </tr>
+          </table><table width="100%" border="0" cellspacing="0" cellpadding="5">
+              <!--DWLayoutTable-->
+              <tr>
+                <td width="604" height="169" valign="top">
+                  <div class="question"> As a student, I enjoy working independently. <br />
+                      <br />
+                      <input type="radio" name="q3" onClick="selfAss(3,0)"/>
+                      <label> True </label>
+                      <input type="radio" name="q3" onClick="selfAss(3,1)"/>
+                      <label> False </label>
+                      <div id="assess3" class="assess"></div>
+                </div></td>
+              </tr>
+          </table><table width="100%" border="0" cellspacing="0" cellpadding="5">
+              <!--DWLayoutTable-->
+              <tr>
+                <td width="604" height="169" valign="top">
+                  <div class="question"> I am willing to dedicate 6-8 hours each week to my online course. <br />
+                      <br />
+                      <input type="radio" name="q4" onClick="selfAss(4,0)"/>
+                      <label> True </label>
+                      <input type="radio" name="q4" onClick="selfAss(4,1)"/>
+                      <label> False </label>
+                      <div id="assess4" class="assess"></div>
+                </div></td>
+              </tr>
+          </table>
+		  <table width="100%" border="0" cellspacing="0" cellpadding="5">
+              <!--DWLayoutTable-->
+              <tr>
+                <td width="604" height="169" valign="top">
+                  <div class="question"> When it comes to learning, I am a self directed person. <br />
+                      <br />
+                      <input type="radio" name="q5" onClick="selfAss(5,0)"/>
+                      <label> True </label>
+                      <input type="radio" name="q5" onClick="selfAss(5,1)"/>
+                      <label> False </label>
+                      <div id="assess5" class="assess"></div>
+                </div></td>
+              </tr>
+          </table></p>
+      
+    </td>
+
+</tr>
+
+</table>
+
+
+<!-- Page Content ENDS here -->
+      </div>  <!-- Stage {ends} -->            
+      <!--#include virtual="/navbar/footer.txt"--> 
+    </div>
+    </body>
+</html>
+

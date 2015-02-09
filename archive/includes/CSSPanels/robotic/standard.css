@@ -1,0 +1,48 @@
+/* start content */
+.robotic_standard_c {position:relative;}
+.robotic_standard_c_back {position:absolute; top:0px; left:0px; width:100%; z-index:1;}
+.robotic_standard_c_backin {position:relative; padding: 0 10px 0 10px;} 
+.robotic_standard_c_backin img {margin:0;padding:0;}
+.robotic_standard_c_front {position:absolute; top:0px; left:0px; width:100%; z-index:2;}
+.robotic_standard_c_tl {position:absolute;left:0px;top:0px;background:url(standard_images/content_top_left.png);width:10px;height:10px;}
+.robotic_standard_c_tr {position:absolute;right:0px;top:0px;background:url(standard_images/content_top_right.png);width:10px;height:10px;}
+.robotic_standard_c_tc {display:block;height:10px;width:100%;background:url(standard_images/content_top_center.png);}
+.robotic_standard_c_ml {position:absolute;left:0px;top:10px;background:url(standard_images/content_middle_left.png);width:10px;}
+.robotic_standard_c_mr {position:absolute;right:0px;top:10px;background:url(standard_images/content_middle_right.png);width:10px;}
+.robotic_standard_c_mc {display:block;width:100%;background:url(standard_images/content_middle_center.png);}
+.robotic_standard_c_bl {position:absolute;left:0px;bottom:0px;background:url(standard_images/content_bottom_left.png);width:10px;height:10px;}
+.robotic_standard_c_br {position:absolute;right:0px;bottom:0px;background:url(standard_images/content_bottom_right.png);width:10px;height:10px;}
+.robotic_standard_c_bc {display:block;height:10px;width:100%;background:url(standard_images/content_bottom_center.png);}
+/* end content */
+/* start footer */
+.robotic_standard_f {position:relative;}
+.robotic_standard_f_back {position:absolute; top:0px; left:0px; width:100%; z-index:1;}
+.robotic_standard_f_backin {position:relative; padding: 0 10px 0 10px;} 
+.robotic_standard_f_backin img {margin:0;padding:0;}
+.robotic_standard_f_front {position:absolute; top:0px; left:0px; width:100%; z-index:2;}
+.robotic_standard_f_tl {position:absolute;left:0px;top:0px;background:url(standard_images/footer_top_left.png);width:10px;height:10px;}
+.robotic_standard_f_tr {position:absolute;right:0px;top:0px;background:url(standard_images/footer_top_right.png);width:10px;height:10px;}
+.robotic_standard_f_tc {display:block;height:10px;width:100%;background:url(standard_images/footer_top_center.png);}
+.robotic_standard_f_ml {position:absolute;left:0px;top:10px;background:url(standard_images/footer_middle_left.png);width:10px;}
+.robotic_standard_f_mr {position:absolute;right:0px;top:10px;background:url(standard_images/footer_middle_right.png);width:10px;}
+.robotic_standard_f_mc {display:block;width:100%;background:url(standard_images/footer_middle_center.png);}
+.robotic_standard_f_bl {position:absolute;left:0px;bottom:0px;background:url(standard_images/footer_bottom_left.png);width:10px;height:10px;}
+.robotic_standard_f_br {position:absolute;right:0px;bottom:0px;background:url(standard_images/footer_bottom_right.png);width:10px;height:10px;}
+.robotic_standard_f_bc {display:block;height:10px;width:100%;background:url(standard_images/footer_bottom_center.png);}
+/* end footer */
+/* start header */
+.robotic_standard_h {position:relative;}
+.robotic_standard_h_back {position:absolute; top:0px; left:0px; width:100%; z-index:1;}
+.robotic_standard_h_backin {position:relative; padding: 0 10px 0 10px;} 
+.robotic_standard_h_backin img {margin:0;padding:0;}
+.robotic_standard_h_front {position:absolute; top:0px; left:0px; width:100%; z-index:2;}
+.robotic_standard_h_tl {position:absolute;left:0px;top:0px;background:url(standard_images/header_top_left.png);width:10px;height:10px;}
+.robotic_standard_h_tr {position:absolute;right:0px;top:0px;background:url(standard_images/header_top_right.png);width:10px;height:10px;}
+.robotic_standard_h_tc {display:block;height:10px;width:100%;background:url(standard_images/header_top_center.png);}
+.robotic_standard_h_ml {position:absolute;left:0px;top:10px;background:url(standard_images/header_middle_left.png);width:10px;}
+.robotic_standard_h_mr {position:absolute;right:0px;top:10px;background:url(standard_images/header_middle_right.png);width:10px;}
+.robotic_standard_h_mc {display:block;width:100%;background:url(standard_images/header_middle_center.png);}
+.robotic_standard_h_bl {position:absolute;left:0px;bottom:0px;background:url(standard_images/header_bottom_left.png);width:10px;height:10px;}
+.robotic_standard_h_br {position:absolute;right:0px;bottom:0px;background:url(standard_images/header_bottom_right.png);width:10px;height:10px;}
+.robotic_standard_h_bc {display:block;height:10px;width:100%;background:url(standard_images/header_bottom_center.png);}
+/* end header */

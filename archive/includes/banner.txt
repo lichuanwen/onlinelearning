@@ -1,0 +1,1 @@
+<div id="navbanner"><a href="/elearning/"><img src="images/humber_logo.gif" width="955" height="80" border="0" onmouseover="P7_autoLayers(9)" alt="Humber - Defining Polytechnic Education" /></a></div>

@@ -1,0 +1,13 @@
+<div id="menu">
+<ul>
+  <li><a class="menu-item" id="menu-contact" href="../contact.html">Contact Us</a></li>
+  <li><a class="menu-item" id="menu-services"  href="../services.html">Student Services</a></li>
+  <li><a class="menu-item" id="menu-proctor"  href="../proctor.html">Proctor Request</a></li>
+  <li><a class="menu-item" id="menu-faq"  href="../faq.html">FAQs</a></li>
+  <li><a class="menu-item" id="menu-demo"  href="../demo.html">Demo</a></li>
+  <li><a class="menu-item" id="menu-courses"  href="../courses.html">Courses</a></li>
+  <li><a class="menu-item" id="menu-home"  href="../index.html">Home</a></li>
+</ul>
+</div>
+
+<p class="js-required">IMPORTANT !! This web site requires JavaScript.</p> 

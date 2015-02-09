@@ -1,0 +1,29 @@
+.testCentrePanel_h {
+	font-size:18px;
+	color:#ffffff;
+	font-family:'Arial Narrow', Helvetica, sans-serif;
+	font-weight:bold;
+	padding-left:15px;
+	padding-right:5px;
+	padding-bottom:5px;
+	padding-top:10px;
+	font-variant: small-caps;
+}
+.testCentrePanel_c {
+	font-size:13px;
+	color:#ffffff;
+	font-family:'Trebuchet MS', Arial, Helvetica, sans-serif;
+	padding-left:15px;
+	padding-right:5px;
+	padding-bottom:5px;
+	padding-top:10px
+}
+.testCentrePanel_f {
+	font-size:12px;
+	color:#00ccff;
+	font-family:'Arial Narrow', Helvetica, sans-serif;
+	padding-left:15px;
+	padding-right:5px;
+	padding-bottom:5px;
+	padding-top:8px
+}

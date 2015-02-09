@@ -1,0 +1,257 @@
+/* 
+    Document   : main.css
+    Created on : 3-Aug-2011, 11:33:58 AM
+    Author     : ralvez
+    Description:
+        The declarations in this CSS apply to the site as a whole. Non global 
+        declarations are to be found elsewhere.
+*/
+
+body.main {background-image:url('../../images/body_bkgrd.png'); background-repeat: repeat-x; background-color: #72ABC9; background-position:0 1px; overflow-y:auto; }
+
+div.stage {
+    position:relative;
+    top:-1px;
+    left:0;
+    width:955px;
+    overflow-x:hidden;
+    overflow-y:auto;
+    background-color: #FFF;
+}
+
+div.top-nav {
+    position:relative;
+    top:0;
+    left:0;
+    background-color: #17709C;
+    background-image:url('../../images/blue_banner.jpg'); 
+    width:955px;
+    height:162px;
+}
+
+
+div#menu {
+    position:relative;
+    top:135px;
+    left:0px;
+    background-color: transparent;
+    height: 28px;
+    text-align:justify;
+    line-height: 28px;
+    padding-left: 40px;
+}
+
+
+.top-nav ul {
+    display: inline !important;
+    float: left !important;
+    list-style: none outside none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.top-nav li {
+    float: right !important;
+    font-family: sans-serif !important;
+    font-weight: bold;
+    color:white;
+    font-size: 14px !important;
+    line-height: 27px !important;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+    list-style: none;
+}
+
+a.menu-item {color:#73A9C6;}
+
+a:active, a:focus{ outline:none; } /* do not show selected links in FF */
+
+.top-nav li a {
+    text-decoration: none;
+}
+
+.top-nav li a:hover {color:#fff;}
+
+div.content {
+    position:relative;
+    top:0;
+    left:0;
+    width:955px;
+    min-height: 600px;
+    background-color: #FFF;
+}
+
+div.flash-banner {
+    position: relative;
+    top:0;
+    left:0;
+    width:955px;
+    height: 369px;
+    background-image:url('../../images/flash_placeholder.jpg');
+    overflow: hidden;
+}
+
+div.options-bar {
+    position:relative;
+    top:0;
+    left:0;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+div.option-item {
+    position:relative;
+    left:0;
+    top:0;
+    display: inline-block;
+    cursor:pointer;
+}
+
+#contact {
+	background-image: url(../../images/live_support_online.png);
+	background-repeat: no-repeat;
+    width:314px;
+    height: 118px;
+    overflow: hidden;
+}
+
+#system {
+/*    background-image: url('../../images/system_button.jpg');
+*/	background-image: url(../../images/system_requirements_button.png);
+    background-repeat: no-repeat;
+    width:314px;
+    height: 118px;
+    overflow: hidden;
+}
+
+#dates {
+/*	background-image: url('../../images/critical_dates_button.jpg');
+*/	background-image: url(../../images/bb_orientation_button.png);
+	background-repeat: no-repeat;
+	width:314px;
+	height: 118px;
+	overflow: hidden;
+}
+
+div.news-banner {
+    position:relative;
+    left:0px;
+    top:0;
+    height: 80px;
+    width: 955px;
+    background-image: url('../../images/youtube_head.png');
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+/* eliminate border in humber banners top and bottom 
+#footer {border-top:0; width:100%; position:relative; bottom:0px;} 
+#navbanner {border-bottom:0;} */
+
+p {
+    font-family: Verdana,sans-serif,serif;
+    font-size: 0.85em;
+    color: #333;
+    text-align: left;
+	line-height: 16px;
+    margin-left:6px;
+    margin-right: 6px;
+    padding-left:55px;
+    padding-right:50px;
+}
+
+p.title {
+    font-size: 1em;
+    font-weight: bold;
+    font-variant: small-caps;
+    color:#2E94C3;
+    padding-left:55px;
+}
+
+p.subtitle {
+    font-weight: bold;
+    color:#888;
+    padding-left:55px;
+}
+
+/* js-required will only show if the user does not have JavaScript */
+
+p.js-required {
+    -moz-background-inline-policy: continuous;
+    background: url('../../images/icons/page_error.png') no-repeat scroll left center transparent;
+    line-height: 16px;
+    padding-left: 21px;
+    color:orange;
+    font-weight: bold;
+    position:relative;
+    top:60px;
+    left:30px;
+}
+
+select 
+	{
+		color: #444; 
+		font-variant: small-caps;
+		font-family: 'Myriad Web Pro', Verdana, Arial, sans-serif; 
+		height: 26px; 
+		font-size: 14px; 
+		font-weight: bold;
+	}
+
+table {border-collapse: collapse;}
+
+table.school-list {
+    position:relative;
+    top:10px;
+    border:solid 5px #719ED0;
+	text-align: left;
+}
+
+table.school-list tr
+{
+		height: 30px;
+}
+
+table.school-list td {
+    margin: 0 2px 0 2px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border:solid 1px #719ED0;
+    font-size: 0.73em;
+    font-family: Verdana, Arial,Tahoma,Verdana, sans-serif;
+    color:#333;
+}
+
+table.school-list thead {
+    background-color: #719ED0;
+    color:white;
+	font-family: 'Myriad Web Pro', Verdana, Geneva, sans-serif;
+    font-variant: small-caps;
+	font-size: 18px;
+	}
+
+table.school-list thead th {
+    padding-left: 8px;
+}
+
+#big-window
+{
+	background-image: url(../../images/big_window_gradient.png);
+	background-repeat: repeat-x;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#big-window p
+{
+	font-family: 'Myriad Pro', Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 17px;
+}
+
+.big-window-heading
+{
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size:16px;
+}

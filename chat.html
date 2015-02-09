@@ -1,0 +1,39 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script language="JavaScript">
+    function updateAuthor(theForm){
+    if(theForm.extensionField_Name){
+    if(theForm.extensionField_Name.value!=""){
+    theForm.author.value=theForm.extensionField_Name.value;
+    theForm.extensionField_Name.name='extensionField_h_Name';
+    return(true);}}
+    if(theForm.extensionField_Email){
+    if(theForm.extensionField_Email.value!=""){
+    theForm.author.value=theForm.extensionField_Email.value;
+    theForm.extensionField_Email.name='extensionField_h_Email';
+    return(true);}}
+    return(true);}
+</script>
+</head>
+<body>
+<form action="https://Mylivechat.humber.ca/ccp/chat/form/100001" method="post" onSubmit="return updateAuthor(this)">
+<style type="text/css">span { display: inline-block; width: 120px; }</style>
+    <span>Name:</span><input type="text" name="extensionField_Name" /><br/>
+    <span>Email:</span><input type="text" name="extensionField_Email" /><br/>
+    <span>Humber Number:</span><input type="text" name="extensionField_Humber Number" /><br/>
+    <span>Problem:</span>
+    <select name="extensionField_ccxqueuetag"><br/>
+        <option value="Chat_Csq8">OLC</option>
+    </select><br/>
+<input type="submit" value="Submit"/><input type="hidden" name="author" value="Customer"/><br/>
+<input type="hidden" name="title" value="ccx chat"/><br/>
+<input type="hidden" name="extensionField_h_widgetName123456" value="OLC-Chat"/><br/>
+<!-- The following optional, hidden fields are available in order to customize the Customer Chat user interface.
+Unlike other extension fields, these are not added to the social contact, and therefore do not display in the Agent Chat user interface.-->
+<input type="hidden" name="extensionField_chatLogo" value=""><br/>
+<input type="hidden" name="extensionField_chatWaiting" value="Welcome to the OLC chat system.">
+<input type="hidden" name="extensionField_chatAgentJoinTimeOut" value="Your session is being held in priority sequence. Please continue to hold for the first available staff member.">
+<input type="hidden" name="extensionField_chatError" value="The chat service is currently unavailable. Please try connecting with us later, or you may email us at olc@humber.ca and we will respond during regular business hours hours of Monday to Friday 8:30 AM to 8:00 PM, Saturday and Sunday 9:00 AM to 5:00 PM.">
+</form></body>
+</html>

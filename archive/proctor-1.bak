@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="includes/CSSPanels/robotic/standard.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="includes/CSSPanels/CSSPanels.js"></script>
+<link href="includes/CSSPanels/testCentrePanel.css" rel="stylesheet" type="text/css" />
+<link href="includes/CSSPanels/externalProctorPanel.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css" media="screen">
+
+a.testCentreButton{
+	background: url(proctorOptions/testCentreButton.png) no-repeat 0 0;
+	width: 207px;
+	height: 57px;
+	display: block;
+}
+
+a.testCentreButton:hover { background-position: 0 -60px; }
+
+a.testCentreButton:active { background-position: 0 -120px; }
+
+a.externalSiteButton{
+	background: url(proctorOptions/externalSiteButton.png) no-repeat 0 0;
+	width: 207px;
+	height: 57px;
+	display: block;
+}
+
+a.externalSiteButton:hover { background-position: 0 -60px; }
+
+a.externalSiteButton:active { background-position: 0 -120px; }
+
+</style>
+
+</head>
+
+<body topmargin="0">
+<table width="844" border="0" cellspacing="10" cellpadding="10">
+  <tr>
+    <td width="422"><div id="testCentrePanel" style="width:380px;position:relative;">
+      <!-- (CSSPanels Begin)  #testCentrePanel #robotic #standard #false #(false:380px,false:40:true,false:300:true,false:25:true)-->
+      <!-- (CSSPanels Header1 Begin)  #testCentrePanel -->
+      <div id="testCentrePanel_h" class="robotic_standard_h" style="height:40px;">
+        <div class="robotic_standard_h_back">
+          <div id="testCentrePanel_h_back" class="robotic_standard_h_backin" style="height:40px;"><img src="includes/CSSPanels/robotic/standard_images/header_top_left.png" class="robotic_standard_h_tl" style="background:none;" alt="" /><img src="includes/CSSPanels/robotic/standard_images/header_top_center.png" class="robotic_standard_h_tc" style="background:none;" alt="" /><img src="includes/CSSPanels/robotic/standard_images/header_top_right.png" class="robotic_standard_h_tr" style="background:none;" alt="" /><img id="testCentrePanel_h_left" src="includes/CSSPanels/robotic/standard_images/header_middle_left.png" class="robotic_standard_h_ml" style="background:none;height:20px;top:10px;" alt="" /><img id="testCentrePanel_h_center" src="includes/CSSPanels/robotic/standard_images/header_middle_center.png" class="robotic_standard_h_mc" style="background:none;height:20px;top:10px;" alt="" /><img id="testCentrePanel_h_right" src="includes/CSSPanels/robotic/standard_images/header_middle_right.png" class="robotic_standard_h_mr" style="background:none;height:20px;top:10px;" alt="" /><img src="includes/CSSPanels/robotic/standard_images/header_bottom_left.png" class="robotic_standard_h_bl" style="background:none;" alt="" /><img src="includes/CSSPanels/robotic/standard_images/header_bottom_center.png" class="robotic_standard_h_bc" style="background:none;" alt="" /><img src="includes/CSSPanels/robotic/standard_images/header_bottom_right.png" class="robotic_standard_h_br" style="background:none;" alt="" /></div>
+        </div>
+        <div id="testCentrePanel_h_front" class="robotic_standard_h_front" style="height:40px;">
+          <!-- (CSSPanels Header1 End)  #testCentrePanel -->
+          <div class="testCentrePanel_h" id="testCentrePanel_h_content" >Humber Test Centre</div>
+          <!-- (CSSPanels Header2 Begin)  #testCentrePanel -->
+        </div>
+      </div>
+      <!-- (CSSPanels Header2 End)  #testCentrePanel -->
+      <!-- (CSSPanels Content1 Begin)  #testCentrePanel -->
+      <div id="testCentrePanel_c" class="robotic_standard_c" style="height:300px;">
+        <div class="robotic_standard_c_back">
+          <div id="testCentrePanel_c_back" class="robotic_standard_c_backin" style="height:300px;"><img src="includes/CSSPanels/robotic/standard_images/content_top_left.png" class="robotic_standard_c_tl" style="background:none;" alt="" /><img src="includes/CSSPanels/robotic/standard_images/content_top_center.png" class="robotic_standard_c_tc" style="background:none;" alt="" /><img src="includes/CSSPanels/robotic/standard_images/content_top_right.png" class="robotic_standard_c_tr" style="background:none;" alt="" /><img id="testCentrePanel_c_left" src="includes/CSSPanels/robotic/standard_images/content_middle_left.png" class="robotic_standard_c_ml" style="background:none;height:280px;top:10px;" alt="" /><img id="testCentrePanel_c_center" src="includes/CSSPanels/robotic/standard_images/content_middle_center.png" class="robotic_standard_c_mc" style="background:none;height:280px;top:10px;" alt="" /><img id="testCentrePanel_c_right" src="includes/CSSPanels/robotic/standard_images/content_middle_right.png" class="robotic_standard_c_mr" style="background:none;height:280px;top:10px;" alt="" /><img src="includes/CSSPanels/robotic/standard_images/content_bottom_left.png" class="robotic_standard_c_bl" style="background:none;" alt="" /><img src="includes/CSSPanels/robotic/standard_images/content_bottom_center.png" class="robotic_standard_c_bc" style="background:none;" alt="" /><img src="includes/CSSPanels/robotic/standard_images/content_bottom_right.png" class="robotic_standard_c_br" style="background:none;" alt="" /></div>
+        </div>
+        <div id="testCentrePanel_c_front" class="robotic_standard_c_front" style="height:300px;">
+          <!-- (CSSPanels Content1 End)  #testCentrePanel -->
+          <div class="testCentrePanel_c" id="testCentrePanel_c_content" >
+            <p>- Submit this form if  you want to write the exam at a Humber Test Centre due to a conflict with the exam schedule</p>
+            <p>- If your final exam will be on a computer then you must book a computer by calling the Test Centre</p>
+            <p>- This form must be completed 1 month before the scheduled exam date otherwise your proctor request will be declined</p>
+            <p>&nbsp;</p>
+
+            <p align="center">
+            
+            	<a class="testCentreButton" onclick="jquery" href="testcentre.php" target="_parent"></a>
+            
+            <br />
+            </p>
+          </div>
+          <!-- (CSSPanels Content2 Begin)  #testCentrePanel -->
+        </div>
+      </div>
+      <!-- (CSSPanels Content2 End)  #testCentrePanel -->
+      <!-- (CSSPanels Footer1 Begin)  #testCentrePanel -->
+      <div id="testCentrePanel_f" class="robotic_standard_f" style="height:25px;">
+        <div class="robotic_standard_f_back">
+          <div id="testCentrePanel_f_back" class="robotic_standard_f_backin" style="height:25px;"><img src="includes/CSSPanels/robotic/standard_images/footer_top_left.png" class="robotic_standard_f_tl" style="background:none;" alt="" /><img src="includes/CSSPanels/robotic/standard_images/footer_top_center.png" class="robotic_standard_f_tc" style="background:none;" alt="" /><img src="includes/CSSPanels/robotic/standard_images/footer_top_right.png" class="robotic_standard_f_tr" style="background:none;" alt="" /><img id="testCentrePanel_f_left" src="includes/CSSPanels/robotic/standard_images/footer_middle_left.png" class="robotic_standard_f_ml" style="background:none;height:5px;top:10px;" alt="" /><img id="testCentrePanel_f_center" src="includes/CSSPanels/robotic/standard_images/footer_middle_center.png" class="robotic_standard_f_mc" style="background:none;height:5px;top:10px;" alt="" /><img id="testCentrePanel_f_right" src="includes/CSSPanels/robotic/standard_images/footer_middle_right.png" class="robotic_standard_f_mr" style="background:none;height:5px;top:10px;" alt="" /><img src="includes/CSSPanels/robotic/standard_images/footer_bottom_left.png" class="robotic_standard_f_bl" style="background:none;" alt="" /><img src="includes/CSSPanels/robotic/standard_images/footer_bottom_center.png" class="robotic_standard_f_bc" style="background:none;" alt="" /><img src="includes/CSSPanels/robotic/standard_images/footer_bottom_right.png" class="robotic_standard_f_br" style="background:none;" alt="" /></div>
+        </div>
+        <div id="testCentrePanel_f_front" class="robotic_standard_f_front" style="height:25px;">
+          <!-- (CSSPanels Footer1 End)  #testCentrePanel -->
+          <div class="testCentrePanel_f" id="testCentrePanel_f_content" >&nbsp;</div>
+          <!-- (CSSPanels Footer2 Begin)  #testCentrePanel -->
+        </div>
+      </div>
+      <!-- (CSSPanels Footer2 End)  #testCentrePanel -->
+      <script type="text/javascript">CSSPanelAdjust("testCentrePanel", "", "", false);</script>
+      <!-- #testCentrePanel (CSSPanels End) -->
+    </div></td>
+    <td width="422"><div id="externalProctorPanel" style="width:380px;position:relative;">
+      <!-- (CSSPanels Begin)  #externalProctorPanel #robotic #standard #false #(false:380px,false:40:true,false:300:true,false:25:true)-->
+      <!-- (CSSPanels Header1 Begin)  #externalProctorPanel -->
+      <div id="externalProctorPanel_h" class="robotic_standard_h" style="height:40px;">
+        <div class="robotic_standard_h_back">
+          <div id="externalProctorPanel_h_back" class="robotic_standard_h_backin" style="height:40px;"><img src="includes/CSSPanels/robotic/standard_images/header_top_left.png" class="robotic_standard_h_tl" style="background:none;" alt="" /><img src="includes/CSSPanels/robotic/standard_images/header_top_center.png" class="robotic_standard_h_tc" style="background:none;" alt="" /><img src="includes/CSSPanels/robotic/standard_images/header_top_right.png" class="robotic_standard_h_tr" style="background:none;" alt="" /><img id="externalProctorPanel_h_left" src="includes/CSSPanels/robotic/standard_images/header_middle_left.png" class="robotic_standard_h_ml" style="background:none;height:20px;top:10px;" alt="" /><img id="externalProctorPanel_h_center" src="includes/CSSPanels/robotic/standard_images/header_middle_center.png" class="robotic_standard_h_mc" style="background:none;height:20px;top:10px;" alt="" /><img id="externalProctorPanel_h_right" src="includes/CSSPanels/robotic/standard_images/header_middle_right.png" class="robotic_standard_h_mr" style="background:none;height:20px;top:10px;" alt="" /><img src="includes/CSSPanels/robotic/standard_images/header_bottom_left.png" class="robotic_standard_h_bl" style="background:none;" alt="" /><img src="includes/CSSPanels/robotic/standard_images/header_bottom_center.png" class="robotic_standard_h_bc" style="background:none;" alt="" /><img src="includes/CSSPanels/robotic/standard_images/header_bottom_right.png" class="robotic_standard_h_br" style="background:none;" alt="" /></div>
+        </div>
+        <div id="externalProctorPanel_h_front" class="robotic_standard_h_front" style="height:40px;">
+          <!-- (CSSPanels Header1 End)  #externalProctorPanel -->
+          <div class="externalProctorPanel_h" id="externalProctorPanel_h_content" >Off campus proctored site</div>
+          <!-- (CSSPanels Header2 Begin)  #externalProctorPanel -->
+        </div>
+      </div>
+      <!-- (CSSPanels Header2 End)  #externalProctorPanel -->
+      <!-- (CSSPanels Content1 Begin)  #externalProctorPanel -->
+      <div id="externalProctorPanel_c" class="robotic_standard_c" style="height:300px;">
+        <div class="robotic_standard_c_back">
+          <div id="externalProctorPanel_c_back" class="robotic_standard_c_backin" style="height:300px;"><img src="includes/CSSPanels/robotic/standard_images/content_top_left.png" class="robotic_standard_c_tl" style="background:none;" alt="" /><img src="includes/CSSPanels/robotic/standard_images/content_top_center.png" class="robotic_standard_c_tc" style="background:none;" alt="" /><img src="includes/CSSPanels/robotic/standard_images/content_top_right.png" class="robotic_standard_c_tr" style="background:none;" alt="" /><img id="externalProctorPanel_c_left" src="includes/CSSPanels/robotic/standard_images/content_middle_left.png" class="robotic_standard_c_ml" style="background:none;height:280px;top:10px;" alt="" /><img id="externalProctorPanel_c_center" src="includes/CSSPanels/robotic/standard_images/content_middle_center.png" class="robotic_standard_c_mc" style="background:none;height:280px;top:10px;" alt="" /><img id="externalProctorPanel_c_right" src="includes/CSSPanels/robotic/standard_images/content_middle_right.png" class="robotic_standard_c_mr" style="background:none;height:280px;top:10px;" alt="" /><img src="includes/CSSPanels/robotic/standard_images/content_bottom_left.png" class="robotic_standard_c_bl" style="background:none;" alt="" /><img src="includes/CSSPanels/robotic/standard_images/content_bottom_center.png" class="robotic_standard_c_bc" style="background:none;" alt="" /><img src="includes/CSSPanels/robotic/standard_images/content_bottom_right.png" class="robotic_standard_c_br" style="background:none;" alt="" /></div>
+        </div>
+        <div id="externalProctorPanel_c_front" class="robotic_standard_c_front" style="height:300px;">
+          <!-- (CSSPanels Content1 End)  #externalProctorPanel -->
+          <div class="externalProctorPanel_c" id="externalProctorPanel_c_content" >
+          
+            <p>- Submit this form if you live more than 100 km from Humber College's North campus</p>
+            <p>- Make sure you have found a proctor and collected all the contact information for the proctor</p>
+            <p>- This form must be completed 1 month before the scheduled exam date otherwise your proctor request will be declined</p>
+            <p>&nbsp;</p>
+            <p align="center">
+            <a href="offcampus.php" target="_parent" class="externalSiteButton" onclick="jquery"></a>
+            <br />
+            </p>
+          </div>
+          <!-- (CSSPanels Content2 Begin)  #externalProctorPanel -->
+        </div>
+      </div>
+      <!-- (CSSPanels Content2 End)  #externalProctorPanel -->
+      <!-- (CSSPanels Footer1 Begin)  #externalProctorPanel -->
+      <div id="externalProctorPanel_f" class="robotic_standard_f" style="height:25px;">
+        <div class="robotic_standard_f_back">
+          <div id="externalProctorPanel_f_back" class="robotic_standard_f_backin" style="height:25px;"><img src="includes/CSSPanels/robotic/standard_images/footer_top_left.png" class="robotic_standard_f_tl" style="background:none;" alt="" /><img src="includes/CSSPanels/robotic/standard_images/footer_top_center.png" class="robotic_standard_f_tc" style="background:none;" alt="" /><img src="includes/CSSPanels/robotic/standard_images/footer_top_right.png" class="robotic_standard_f_tr" style="background:none;" alt="" /><img id="externalProctorPanel_f_left" src="includes/CSSPanels/robotic/standard_images/footer_middle_left.png" class="robotic_standard_f_ml" style="background:none;height:5px;top:10px;" alt="" /><img id="externalProctorPanel_f_center" src="includes/CSSPanels/robotic/standard_images/footer_middle_center.png" class="robotic_standard_f_mc" style="background:none;height:5px;top:10px;" alt="" /><img id="externalProctorPanel_f_right" src="includes/CSSPanels/robotic/standard_images/footer_middle_right.png" class="robotic_standard_f_mr" style="background:none;height:5px;top:10px;" alt="" /><img src="includes/CSSPanels/robotic/standard_images/footer_bottom_left.png" class="robotic_standard_f_bl" style="background:none;" alt="" /><img src="includes/CSSPanels/robotic/standard_images/footer_bottom_center.png" class="robotic_standard_f_bc" style="background:none;" alt="" /><img src="includes/CSSPanels/robotic/standard_images/footer_bottom_right.png" class="robotic_standard_f_br" style="background:none;" alt="" /></div>
+        </div>
+        <div id="externalProctorPanel_f_front" class="robotic_standard_f_front" style="height:25px;">
+          <!-- (CSSPanels Footer1 End)  #externalProctorPanel -->
+          <div class="externalProctorPanel_f" id="externalProctorPanel_f_content" >&nbsp;</div>
+          <!-- (CSSPanels Footer2 Begin)  #externalProctorPanel -->
+        </div>
+      </div>
+      <!-- (CSSPanels Footer2 End)  #externalProctorPanel -->
+      <script type="text/javascript">CSSPanelAdjust("externalProctorPanel", "", "", false);</script>
+      <!-- #externalProctorPanel (CSSPanels End) -->
+    </div></td>
+  </tr>
+</table>
+
+</body>
+</html>
