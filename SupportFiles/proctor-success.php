@@ -63,12 +63,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
 
             $courseCode = htmlspecialchars($_POST['courseCode']);
             $courseName = substr($courseCode, 0, 4);
-        	
-        	if(strlen($courseCode) > 10){
-        		$courseNum = substr($courseCode, 4, 4);
-        	} else {
-        		$courseNum = substr($courseCode, 4, 3);
-        	}
+            
+            if(strlen($courseCode) > 10){
+                $courseNum = substr($courseCode, 4, 4);
+            } else {
+                $courseNum = substr($courseCode, 4, 3);
+            }
             
             $courseSection = substr($courseCode, -3);
             // var_dump($courseName." ".$courseNum." ".$courseSection); // test only::rga

@@ -20,16 +20,40 @@
     <script src="bower_components/modernizr/modernizr.js"></script>
     
     <!-- GOOGLE ANALYTICS CODE BEGINS -->
+    
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      var recaptcha1,recaptcha2,recaptcha3;
+      var myCallBack = function() {
+        //Render the recaptcha1 on the element with ID "recaptcha1"
+        recaptcha1 = grecaptcha.render('recaptcha1', {
+          'sitekey' : '6LeVIQETAAAAAB9IxTmCS8nBwERZjkOU8y686to4', //Replace this with your Site key
+          'theme' : 'light'
+        });
+        
+        //Render the recaptcha2 on the element with ID "recaptcha2"
+        recaptcha2 = grecaptcha.render('recaptcha2', {
+          'sitekey' : '6LeVIQETAAAAAB9IxTmCS8nBwERZjkOU8y686to4', //Replace this with your Site key
+          'theme' : 'light'
+        });
+
+        //Render the recaptcha2 on the element with ID "recaptcha2"
+        recaptcha3 = grecaptcha.render('recaptcha3', {
+          'sitekey' : '6LeVIQETAAAAAB9IxTmCS8nBwERZjkOU8y686to4', //Replace this with your Site key
+          'theme' : 'light'
+        });
+      };
+
+
 
   ga('create', 'UA-52617827-1', 'auto');
   ga('send', 'pageview');
 
 	</script>
+  <script src='https://www.google.com/recaptcha/api.js?onload=myCallBack&render=explicit' async defer></script>
     <!-- GOOGLE ANALYTICS CODE ENDS -->
     <style type="text/css">
       form .hidden-captcha {
@@ -59,7 +83,7 @@
           </div>
 
           <!-- Start of Off-Campus Proctor Tile -->
-          <div class="large-4 small-12 columns">
+          <div class="large-4 small-12 columns cells">
             <div class="panel radius">
               <h3>Off-Campus Proctor</h3>
               <ul>
@@ -76,7 +100,7 @@
           <!-- End of Off-Campus Proctor Tile -->
 
           <!-- Start of Virtual Proctor Tile -->
-          <div class="large-4 small-12 columns">
+          <div class="large-4 small-12 columns cells">
             <div class="panel radius">
               <h3>Virtual Proctor</h3>
               <ul>
@@ -96,7 +120,7 @@
           <!-- End of Virtual Proctor Tile -->
 
           <!-- Start of Test Centre Tile -->
-          <div class="large-4 small-12 columns">
+          <div class="large-4 small-12 columns cells">
             <div class="panel radius">
               <h3>Test Centre</h3>
               <ul>
@@ -265,7 +289,9 @@
           </div>
         </div>
         <div class="row">
-          <div class="large-12 columns">
+          <div class="large-6 columns firstrecaptcha" id="recaptcha1">
+          </div>
+          <div class="large-6 columns buttons">
             <input name="submit" type="submit" value="Submit" class="button radius btn-submit" title="Click the Submit button once you have filled in all form fields" />
             <a class="close-reveal-modal button radius btn-close">Cancel</a>
           </div>
@@ -353,8 +379,11 @@
           </div>
         </div>
         <div class="row">
-          <div class="large-12 columns">
-          <input name="submit" type="submit" value="Submit" class="button radius btn-submit" title="Click the Submit button once you have filled in all form fields" />
+          <div class="large-6 columns recaptchaclone" id="recaptcha2">
+
+          </div>
+          <div class="large-6 columns buttons">
+            <input name="submit" type="submit" value="Submit" class="button radius btn-submit" title="Click the Submit button once you have filled in all form fields" />
             <a class="close-reveal-modal button radius btn-close">Cancel</a>
           </div>
         </div>
@@ -446,7 +475,10 @@
           </div>
         </div>
         <div class="row">
-          <div class="large-12 columns">
+          <div class="large-6 columns recaptchaclone" id="recaptcha3">
+
+          </div>
+          <div class="large-6 columns buttons">
             <input name="submit" type="submit" value="Submit" class="button radius btn-submit" title="Click the Submit button once you have filled in all form fields" />
             <a class="close-reveal-modal button radius btn-close">Cancel</a>
           </div>
@@ -464,6 +496,42 @@
     <script src="js/app.js"></script>
     <script src="js/formValidation.js"></script>
     <script src="js/custom.js"></script>
+
+    <script>
+
+      function layoutCal(){
+        var width = $(".row").find(".cells").css("width");
+        width = parseInt(width);
+        if (width > 350){
+          $(".row").find(".cells").find(".panel").css("height","auto"); 
+          $(".row").find(".cells").find(".panel").find(".button ").css("top",0);
+          $(".row").find(".cells").find(".panel").find(".button ").eq(1).css("margin-left",0);
+          $(".row").find(".cells").find(".panel").find(".button ").eq(2).css("margin-left",0);
+        }
+        else{
+          height = $(".row").find(".cells").eq(1).css("height");
+          height = parseInt(height);
+          $(".row").find(".cells").find(".panel").css("height",height);
+          $(".row").find(".cells").find(".panel").find(".button ").eq(0).css("top",60);
+          $(".row").find(".cells").find(".panel").find(".button ").eq(1).css("top",20);
+          $(".row").find(".cells").find(".panel").find(".button ").eq(2).css("top",180);
+          $(".row").find(".cells").find(".panel").find(".button ").eq(1).css("margin-left",20);
+          $(".row").find(".cells").find(".panel").find(".button ").eq(2).css("margin-left",30);
+        }
+        console.log(width);
+      }
+
+      $(window).resize(function(){
+            layoutCal();
+      });
+
+      $(document).ready(function() {
+          // Duplicate our reCapcha 
+          layoutCal();
+      });
+
+
+    </script>
 
     </body>
 </html>

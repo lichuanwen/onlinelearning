@@ -4,9 +4,7 @@
     <div class="large-12 columns olc-banner">
       <h1><a href="index.php" target="_self">Open Learning Centre</a></h1>
     </div>
-    <div class="social-media-bird">
-      <a href="https://twitter.com/HumberOLC" target="_blank" title="Follow OLC on Twitter!"><span class="icon-twitter"></span></a>
-    </div>
+    
   </div>
 </div>
 
@@ -27,6 +25,10 @@
         <li><a href="services.php">Student Services</a></li>
         <li><a href="contact.php">Contact Us</a></li>
       </ul>
+      <div class="social-media-bird">
+        <a href="https://twitter.com/HumberOLC" target="_blank" title="Follow OLC on Twitter!"><span class="icon-twitter"></span></a>
+      </div>
     </section>
+
   </nav>
 </div>

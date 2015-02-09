@@ -82,9 +82,9 @@
 
          <!-- Start of CHAT Tile -->
           <div class="large-4 medium-6 small-12 columns">
-            <div class="panel radius">
+            <div class="panel radius chatus">
               <div class="row">
-                <div class="large-12 medium-3 small-3 columns">
+                <div class="large-12 medium-3 small-3 columns ">
                   <img src="images/chat.png" alt="Chat" />
                 </div>
                 <div class="large-12 medium-9 small-9 columns">
@@ -144,5 +144,36 @@
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="js/app.js"></script>
     <script src="js/custom.js"></script>
+    <script>
+
+      function layoutCal(){
+        var width = $(window).width();
+        width = parseInt(width);
+        if (width > 1024){//3 cols
+          $(".chatus").css("min-height",246);
+          $(".chatus").css("max-height",246);
+        }
+        else if (width > 640){//2 cols
+          $(".chatus").css("min-height",157);
+          $(".chatus").css("max-height",157);
+        }
+        else{
+          $(".chatus").css("min-height","initial");
+          $(".chatus").css("max-height","initial");
+        }
+        console.log(width);
+      }
+
+      $(window).resize(function(){
+            layoutCal();
+      });
+
+      $(document).ready(function() {
+          // Duplicate our reCapcha 
+          layoutCal();
+      });
+
+
+    </script>
   </body>
 </html>

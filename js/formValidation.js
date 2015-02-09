@@ -5,6 +5,11 @@ var emailAd = document.offcampus.email.value;
 var proctorEmail = document.offcampus.proctorEmail.value;
 var flatnumberid = /^\d+$/;
 
+if (grecaptcha.getResponse(recaptcha1) == ""){
+		window.alert("Please enter a valid CAPTCHA.");
+		return false;
+	}
+
 if (formObj.firstName.value == "") {
 	window.alert("Please enter your first name.");
 	formObj.firstName.focus();
@@ -127,6 +132,8 @@ if(formObj.ofcWebsite.value != ""){
 	return false;
 }
 
+
+
 }
 
 
@@ -134,6 +141,11 @@ function validateVirtual(){
 
 var formObj = document.virtual;
 var emailAd = document.virtual.email.value;
+
+if (grecaptcha.getResponse(recaptcha2) == ""){
+		window.alert("Please enter a valid CAPTCHA.");
+		return false;
+	}
 
 if (formObj.firstName.value == "") {
 	window.alert("Please enter your first name.");
@@ -186,6 +198,11 @@ function validateTestCentre(){
 
 var formObj = document.testcentre;
 var emailAd = document.testcentre.email.value;
+
+if (grecaptcha.getResponse(recaptcha3) == ""){
+		window.alert("Please enter a valid CAPTCHA.");
+		return false;
+	}
 
 if (formObj.firstName.value == "") {
 	window.alert("Please enter your first name.");

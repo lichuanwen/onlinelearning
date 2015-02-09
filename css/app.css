@@ -4871,6 +4871,7 @@ ul.pagination li {
   border-color: #d9d9d9;
   margin-bottom: 1.53846rem;
   padding: 1.53846rem;
+  max-height: 442px;
   background: #f2f2f2;
 }
 /* line 48, ../bower_components/foundation/scss/foundation/components/_panels.scss */
@@ -7939,7 +7940,7 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
 }
 /* line 129, ../scss/partials/_custom.scss */
-.olc-banner-row .social-media-bird {
+.olc-nav .social-media-bird {
   -webkit-transition-property: bottom;
   -moz-transition-property: bottom;
   -o-transition-property: bottom;
@@ -7948,31 +7949,32 @@ h1, h2, h3, h4, h5, h6 {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
   transition-duration: 0.5s;
-  position: absolute;
+  /*position: absolute;*/
+  font-size: 3em;
   right: 15px;
   bottom: -10px;
   display: block;
 }
 @media only screen and (min-width: 64.063em) {
   /* line 129, ../scss/partials/_custom.scss */
-  .olc-banner-row .social-media-bird {
+  .olc-nav .social-media-bird {
     right: 15%;
   }
 }
 /* line 139, ../scss/partials/_custom.scss */
-.olc-banner-row .social-media-bird:hover {
+.olc-nav.social-media-bird:hover {
   bottom: 0;
 }
 /* line 140, ../scss/partials/_custom.scss */
-.olc-banner-row .social-media-bird a {
+.olc-nav .social-media-bird a {
   color: white;
 }
 /* line 142, ../scss/partials/_custom.scss */
-.olc-banner-row .social-media-bird a:hover {
+.olc-nav .social-media-bird a:hover {
   color: #e6e6e6;
 }
 /* line 146, ../scss/partials/_custom.scss */
-.olc-banner-row .social-media-bird .icon-twitter {
+.olc-nav .social-media-bird .icon-twitter {
   font-size: 2.30769rem;
   display: block !important;
 }
